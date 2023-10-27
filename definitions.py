@@ -1,0 +1,18 @@
+import pathlib
+
+ROOT_DIR = pathlib.Path(__file__).parent
+RESOURCES_DIR = ROOT_DIR / 'resources'
+DATASET_DIR = RESOURCES_DIR / 'dataset'
+SYNTAGRUS_DATASET_DIR = DATASET_DIR / "syntagrus"
+SNYATNIK_DATASET_DIR = DATASET_DIR / "snyatnik"
+SYNTAGRUS_DIALOGUE_DATASET_DIR = DATASET_DIR / "syntagrus_dialogue"
+RNC_DIALOGUE_DATASET_DIR = DATASET_DIR / "rnc_dialogue"
+OPENCORPORA_DIALOGUE_DATASET_DIR = DATASET_DIR / "opencorpora_dialogue"
+GIKRYA_DIALOGUE_DATASET_DIR = DATASET_DIR / "gikrya_dialogue"
+BOS_TOKEN = '<bos>'
+EOS_TOKEN = '<eos>'
+PAD_TOKEN = '<pad>'
+BOS_INDEX = 1
+EOS_INDEX = 2
+PAD_INDEX = 0
+
